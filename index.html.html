@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .form-control{
+            font-size: 20px;
+            padding: 25px;
+        } 
+        body{
+            background: black;
+            color: white;
+        }
+        #btn{
+            padding: 0px 30px;
+            /* padding: -10px 50px; */
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h2  class="text-center bg-dark display-1 text-light fw-bold p-3">AI Dictionary Learnig📚</h2>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="input-group mb-3">
+                    <input id="searchInput" type="text" class="form-control" placeholder="Type an English word and press Search" aria-label="Word to search" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary mx-3" type="button" id="btn">Search</button>
+                    <a class="btn btn-outline-primary pe-5"  href="https://gemini.google.com/app" target="_blank" class="btn btn-outline-success" style="padding-top: 30px; padding-left: 40px;">AI</a>
+                  </div>
+            </div>
+        </div>
+        <div class="container" id="carData">
+            
+        </div>
+      </div>
+
+    <script src="FOUR.js"></script>
+</body>
+</html>
